@@ -1,5 +1,13 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions demonstrate how to scope variables and use
+## variables from a different scope using the <<- operator
+
+## the makeCacheMatrix function creates a list of functions that
+## manage an original matrix and then the inverted version of that matrix
+
+## the cacheSolve function takes a matrix, looks to see if it has
+## already been inverted (via the makeCacheMatrix) and if so, use the
+## cached value and if not, invert the matrix and then store the inverted
+## matrix in the cache.  
 
 #This function creates a special "matrix" object that can cache its inverse  
 
